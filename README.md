@@ -1,5 +1,4 @@
 # Conky
-This is my conky deployment,  I am not the person who created these, I just modded them so to fit my needs
 
 This is just me screwing around with Conky, there is still some work that needs done with this but here we go. All of this was done for my system that happens to be running PopOS.
 
