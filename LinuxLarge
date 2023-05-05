@@ -1,10 +1,12 @@
--- AUTHOR
--- https://github.com/Vict0rBit
--- t.me/victorbit
--- victormhgh@gmail.com
+-- ORIGIONAL AUTHOR -- t.me/victorbit
 
 -- BACKGROUND = True means this will be forked to the background on startup.
 -- To make this instance start with system startup add command to your startup app to run this at boot.
+
+-- Change the $USER entry to your username
+
+${image /home/$USER/.conky/LinuxLarge.png -p 10,0}
+
 
 background true
 
@@ -60,7 +62,6 @@ ${font Zekton:style=Bold:size=10}${voffset 40}${goto 50}GPU Temp${goto 160} ${nv
 ${font Zekton:style=Bold:size=10}${goto 50}GPU Freq${goto 162}${nvidia gpufreq} MHz
 
 
-${image /home/levi/.conky/victorConky/LinuxLarge.png -p 10,0}
 
 
 
