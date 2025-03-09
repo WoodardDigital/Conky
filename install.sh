@@ -11,11 +11,10 @@ apt install -y gcalcli conky-all
 mkdir -p /home/$USER/.conky
 
 # Copy the contents of the Conky repository to the .conky directory
-cp -r Conky/* /home/$USER/.conky/
+cp -r * /home/$USER/.conky/
 
 # Add commands to startup to run Conky with specific configurations
 echo "conky -c $USER/.conky/LinuxLarge" >> ~/.bashrc
 echo "conky -c $USER/.conky/conkyrc.calendar" >> ~/.bashrc
 
-# Remove the downloaded repository
-rm -rf Conky
+
